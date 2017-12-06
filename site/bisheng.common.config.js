@@ -63,6 +63,7 @@ module.exports = {
 
     config.resolve.alias = {
       'antd-mobile': process.cwd(),
+      'antd-mobile/lib': path.join(process.cwd(), 'components'),
       site: path.join(process.cwd(), 'site'),
     };
     if (!useReact) {
